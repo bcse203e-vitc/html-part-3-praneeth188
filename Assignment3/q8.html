@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Schedule</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .theory {
+            background-color: #f2f2f2;
+         
+        }
+
+        .practical {
+            background-color: #e3f2fd;
+        
+        }
+
+        .nested-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .nested-table td {
+            padding: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .total-column {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exam Schedule</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>9:00 AM - 12:00 PM</th>
+                <th>1:00 PM - 4:00 PM</th>
+                <th>Total Exams</th>
+            </tr>
+        </thead>
+        <tbody>
+      
+            <tr>
+                <td>2025-01-10</td>
+                <td>
+                    <table class="nested-table">
+                        <tr>
+                            <td class="theory" title="Mathematics Exam - 3 hours">Mathematics (3 hrs)</td>
+                        </tr>
+                        <tr>
+                            <td class="practical" title="Physics Lab Exam - 2 hours">Physics Lab (2 hrs)</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="nested-table">
+                        <tr>
+                            <td class="theory" title="History Exam - 3 hours">History (3 hrs)</td>
+                        </tr>
+                        <tr>
+                            <td class="practical" title="Chemistry Lab Exam - 2 hours">Chemistry Lab (2 hrs)</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="total-column">4</td>
+            </tr>
+
+          
+            <tr>
+                <td>2025-01-11</td>
+                <td>
+                    <table class="nested-table">
+                        <tr>
+                            <td class="theory" title="English Literature Exam - 3 hours">English Literature (3 hrs)</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="nested-table">
+                        <tr>
+                            <td class="theory" title="Computer Science Exam - 3 hours">Computer Science (3 hrs)</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="total-column">2</td>
+            </tr>
+
+        
+            <tr>
+                <td>2025-01-12</td>
+                <td>
+                    <table class="nested-table">
+                        <tr>
+                            <td class="practical" title="Biology Lab Exam - 2 hours">Biology Lab (2 hrs)</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="nested-table">
+                        <tr>
+                            <td class="theory" title="Geography Exam - 3 hours">Geography (3 hrs)</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="total-column">2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
