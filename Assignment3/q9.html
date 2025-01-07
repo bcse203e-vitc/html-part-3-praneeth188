@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .vegetarian {
+            color: green;
+        }
+
+        .rating {
+            text-align: center;
+        }
+
+        .dish-name {
+            font-weight: bold;
+        }
+
+        .dish-ingredients {
+            font-style: italic;
+        }
+
+        .icon-vegetarian {
+            content: "🌱";
+          
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Restaurant Menu</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dish Name</th>
+                <th>Category</th>
+                <th>Ingredients</th>
+                <th>Price ($)</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+         
+            <tr>
+                <td class="dish-name">Caesar Salad <span class="icon-vegetarian">🌱</span></td>
+                <td>Appetizer</td>
+                <td class="dish-ingredients">Lettuce, Croutons, Caesar dressing</td>
+                <td>7.99</td>
+                <td class="rating">★★★★☆</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Bruschetta <span class="icon-vegetarian">🌱</span></td>
+                <td>Appetizer</td>
+                <td class="dish-ingredients">Tomato, Basil, Olive oil, Garlic</td>
+                <td>6.99</td>
+                <td class="rating">★★★☆☆</td>
+            </tr>
+
+          
+            <tr>
+                <td class="dish-name">Margherita Pizza <span class="icon-vegetarian">🌱</span></td>
+                <td>Main Course</td>
+                <td class="dish-ingredients">Tomato sauce, Mozzarella, Basil</td>
+                <td>12.99</td>
+                <td class="rating">★★★★★</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Chicken Parmesan</td>
+                <td>Main Course</td>
+                <td class="dish-ingredients">Chicken, Tomato sauce, Mozzarella</td>
+                <td>14.99</td>
+                <td class="rating">★★★★☆</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Spaghetti Bolognese</td>
+                <td>Main Course</td>
+                <td class="dish-ingredients">Pasta, Ground beef, Tomato sauce</td>
+                <td>13.99</td>
+                <td class="rating">★★★★☆</td>
+            </tr>
+
+          
+            <tr>
+                <td class="dish-name">Chocolate Lava Cake</td>
+                <td>Dessert</td>
+                <td class="dish-ingredients">Chocolate, Butter, Flour, Eggs</td>
+                <td>5.99</td>
+                <td class="rating">★★★★★</td>
+            </tr>
+            <tr>
+                <td class="dish-name">Tiramisu</td>
+                <td>Dessert</td>
+                <td class="dish-ingredients">Mascarpone cheese, Coffee, Ladyfingers</td>
+                <td>6.49</td>
+                <td class="rating">★★★★☆</td>
+            </tr>
+
+           
+            <tr>
+                <td class="dish-name" rowspan="2">Pizza</td>
+                <td>Main Course</td>
+                <td class="dish-ingredients">Tomato sauce, Mozzarella, Basil</td>
+                <td>11.99</td>
+                <td class="rating">★★★★☆</td>
+            </tr>
+            <tr>
+                <td>Main Course</td>
+                <td class="dish-ingredients">Tomato sauce, Mozzarella, Mushrooms</td>
+                <td>12.99</td>
+                <td class="rating">★★★★☆</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
