@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+
+<body>
+    <h1>Conference Timetable</h1>
+
+    <table border="1" cellspacing="0" cellpadding="5">
+        <caption><strong>Conference Schedule</strong></caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>9:00 AM</td>
+                <td class="keynote" colspan="2" title="Keynote by Dr. Alice Smith: 'The Future of AI'">Keynote</td>
+                <td title="Workshop on Web Development: 'Building Responsive Websites'">Workshop</td>
+            </tr>
+
+
+            <tr>
+                <td>10:00 AM</td>
+                <td class="workshop" rowspan="2" title="Workshop on Deep Learning: 'Neural Networks Explained'">Workshop
+                </td>
+                <td class="panel" title="Panel Discussion: 'AI Ethics' with Dr. John Doe, Prof. Emily Zhang">Panel</td>
+                <td class="networking" title="Networking: Meet fellow professionals and speakers">Networking</td>
+            </tr>
+
+
+            <tr>
+                <td>11:00 AM</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+            <tr>
+                <td>12:00 PM</td>
+                <td class="lunch" colspan="3" title="Lunch Break: Enjoy a variety of food and network">Lunch</td>
+            </tr>
+
+
+            <tr>
+                <td>1:00 PM</td>
+                <td class="workshop" title="Workshop on Cloud Computing: 'Building Scalable Apps'">Workshop</td>
+                <td class="keynote" colspan="2"
+                    title="Keynote by Prof. John White: 'The Evolution of Technology in Healthcare'">Keynote</td>
+            </tr>
+
+
+            <tr>
+                <td>3:00 PM</td>
+                <td class="panel"
+                    title="Panel Discussion: 'Data Security in the Digital Age' with experts from top firms">Panel</td>
+                <td class="workshop" title="Workshop on Mobile App Development: 'Creating Cross-Platform Apps'">Workshop
+                </td>
+                <td class="networking" title="Networking: Discuss ideas and future collaborations">Networking</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Session Legend:</h3>
+    <ul>
+        <li><span style="background-color: #ffeb3b; padding: 5px; color: black;">Keynote</span> - Keynote address by
+            prominent speakers</li>
+        <li><span style="background-color: #8bc34a; padding: 5px;">Workshop</span> - Hands-on session with interactive
+            learning</li>
+        <li><span style="background-color: #03a9f4; padding: 5px; color: white;">Panel</span> - Discussion panel with
+            experts</li>
+        <li><span style="background-color: #e91e63; padding: 5px; color: white;">Networking</span> - Networking
+            opportunity to meet peers</li>
+        <li><span style="background-color: #ff5722; padding: 5px; color: white;">Lunch</span> - Break for lunch and
+            informal interactions</li>
+    </ul>
+
+</body>
+
+</html>

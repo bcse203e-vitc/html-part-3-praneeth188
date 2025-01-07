@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports League Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .top-team {
+            background-color: #f5c6cb;
+            font-weight: bold;
+        }
+
+        .footer-row {
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sports League Table</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Team Name</th>
+                <th>Matches Played</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr class="top-team">
+                <td>Team A</td>
+                <td>10</td>
+                <td>8</td>
+                <td>2</td>
+                <td>0</td>
+                <td>24</td>
+            </tr>
+
+            <tr class="top-team">
+                <td>Team B</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                <td>21</td>
+            </tr>
+
+            <tr class="top-team">
+                <td>Team C</td>
+                <td>10</td>
+                <td>6</td>
+                <td>3</td>
+                <td>1</td>
+                <td>19</td>
+            </tr>
+
+            <tr>
+                <td>Team D</td>
+                <td>10</td>
+                <td>5</td>
+                <td>5</td>
+                <td>0</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Team E</td>
+                <td>10</td>
+                <td>4</td>
+                <td>6</td>
+                <td>0</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Team F</td>
+                <td>10</td>
+                <td>3</td>
+                <td>7</td>
+                <td>0</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Team G</td>
+                <td>10</td>
+                <td>2</td>
+                <td>8</td>
+                <td>0</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Team H</td>
+                <td>10</td>
+                <td>1</td>
+                <td>9</td>
+                <td>0</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="footer-row">
+                <td colspan="6">Total Matches Played: 80</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

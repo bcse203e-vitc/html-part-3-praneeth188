@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Report</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .highlight {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grade Report</h1>
+    <table>
+        <caption>Class 10 Grade Report</caption>
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Math</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Total Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr class="highlight">
+                <td>1001</td>
+                <td>Rohan</td>
+                <td>85</td>
+                <td>90</td>
+                <td>88</td>
+                <td>263</td>
+            </tr>
+
+            <tr>
+                <td>1002</td>
+                <td>Arun</td>
+                <td>92</td>
+                <td>94</td>
+                <td>89</td>
+                <td>275</td>
+            </tr>
+
+            <tr>
+                <td>1003</td>
+                <td>Rahul</td>
+                <td>80</td>
+                <td>85</td>
+                <td>90</td>
+                <td>255</td>
+            </tr>
+
+            <tr>
+                <td>1004</td>
+                <td>Mohan</td>
+                <td>78</td>
+                <td>80</td>
+                <td>85</td>
+                <td>243</td>
+            </tr>
+
+            <tr rowspan="2">
+                <td>1005</td>
+                <td>Manoj</td>
+                <td>70</td>
+                <td>75</td>
+                <td>80</td>
+                <td>225</td>
+            </tr>
+            <tr>
+                <td>1006</td>
+                <td>Akash</td>
+                <td>72</td>
+                <td>75</td>
+                <td>78</td>
+                <td>225</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr class="footer">
+                <td colspan="2">Class Average</td>
+                <td>79.4</td>
+                <td>83.6</td>
+                <td>82.0</td>
+                <td>241.2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
